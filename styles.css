@@ -1,0 +1,49 @@
+@import url(animation.css);
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-100;
+}
+
+.halfbody {
+    display: grid;
+    width: 900px;
+    height: 150px;
+    transform: translateY(100px);
+}
+
+.otherHalf {
+    height: 200px;
+    display:grid;
+    justify-content: right;
+    align-self: center;
+    color: white;
+    padding-right: 500px;
+    opacity: 1;
+}
+
+h2 {
+    transform: translate(200px, 200px);
+    transition-property: font-size, background-color;
+    transition-duration: 100ms;
+    padding-right: 200px;
+    margin-right: 0px;
+    width: 300px;
+}
+
+h2:hover {
+    font-size: 30px;
+    background-color: blueviolet;
+    
+}

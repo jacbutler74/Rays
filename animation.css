@@ -1,0 +1,44 @@
+
+
+p1 {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 75px;
+	font-weight:  100;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #f35626;
+	background-image: -webkit-linear-gradient(45deg, #f35626, #feab3a, #47f712, rgb(110, 6, 230));
+    background-clip: text;
+	-webkit-background-clip: text;
+	animation: hue 200ms infinite linear, enlarge 900ms infinite;
+}
+
+@keyframes hue {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(-360deg);
+  }
+}
+
+ 
+@keyframes enlarge {
+    0% {
+        font-size: 75px;
+    }
+    50% {
+        font-size: 125px;
+    }
+    100% {
+        font-size: 75px;
+    }
+}
+
+
+
+@keyframes enhance {
+    
+} {
+    
+}
